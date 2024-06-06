@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# 设置 PyInstaller 参数
-PYINSTALLER_ARGS="--onefile --icon=logo.png --name='即传'"
+# 璁剧疆 PyInstaller 鍙傛暟
+PYINSTALLER_ARGS="--onefile --icon=logo.png --name=鍗充紶"
 
-# 执行 PyInstaller
+# 鎵ц PyInstaller
 pyinstaller $PYINSTALLER_ARGS main.py
 
-# 结束脚本
+# 缁撴潫鑴氭湰
 exit 0
